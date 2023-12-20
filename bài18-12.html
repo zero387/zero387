@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // bài 1
+        console.log('wellcome to Rikkei Academy');
+        var Tuoi=prompt('mời bạn nhập tuổi của mình');
+            console.log(Tuoi);
+        document.write('Quyết tâm học lập trình javascript');
+        alert('Chào mừng bạn đến với học viện Rikkei Academy');
+        var Quyen=confirm('bạn đã đủ 18 tuổi chưa!');18
+            console.log(Quyen);
+        // bài 2
+        var FirstName='Academy';
+            LastName='Rekkei';
+            FullName='Rekkei Academy';
+        document.write(FirstName,  LastName,  FullName);
+        /* 
+        các kiểu dữ liệu
+            kiểu đơn giản primite
+                1.number
+                var a=5;
+                2.string
+                let a='năm'
+                3.booblean
+                let check=5>4;
+                4.undefined
+                var a=;
+                5.null
+
+                6.NaN
+            kiểu phúc tạp reference
+                1.array
+                const color=["red", "blue", "yellow"]
+                2.function
+                3.object
+                const person={firstName="hin", lastname="jeck"}
+        */
+       //bài 3
+        //tính chu vi và diện tích hình chữ nhật
+            var chieuDai=4;
+            var chieuRong=5;
+            var chuvi=(chieuDai + chieuRong)*2;
+            var dientich=chieuDai*chieuRong;
+            console.log("diện tích =",dientich,"chu vi=",chuvi);
+        //tính chu vi và diện tích hình tròn
+            var pi=3.14;
+            var R=4;
+            var chuviT=2*pi*R;
+            var dientichT=pi*R**2;
+            console.log("chu vi hình tròn=", chuviT,"diện tích hình tròn=", dientichT)
+        //bài5
+        let a= 5;
+        let b="5";
+        console.log(a==b);true
+        console.log(a===b);false
+        console.log(a!=b);false
+        console.log(a!==b);rue
+        let a=6;
+        let result: ++a + a + a++ + ++a + a;//33
+        console.log(0 || NaN ||"Rikkei Academy"||null);//Rikkei Academy
+        console.log(null || NaN || false || null);//null
+        console.log(undefined || 1 || 5 || null);//1
+        console.log("" || null || 5 || NaN);//5
+        console.log(1 || null || 12|| NaN);//1
+        console.log(0 && 1 && "Rikkei Academy" &&null);//0
+        console.log(2 && NaN && false && null);//NaN
+        console.log(3 && 1 && 5 && null);//null
+        console.log("1" && undefined && 5 && NaN);//undefined
+        console.log(1 && null && 12&& NaN);//null
+
+
+
+    </script>
+</body>
+</html>
